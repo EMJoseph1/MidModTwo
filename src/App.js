@@ -3,11 +3,12 @@ import Form from './Components/Form';
 import PokeSearch from './Components/PokeSearch'
 import TypeChart from './Components/TypeChart';
 import NavBar from './NavBar';
+import Footer from './Footer';
 import './App.css';
 
 const App = ()=> {
   return (
-    <div>
+    <div id="app">
       <NavBar />
       <Switch>
 
@@ -24,6 +25,7 @@ const App = ()=> {
         </Route>
         
       </Switch>
+      <Footer />
     </div>
   );
 }

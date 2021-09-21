@@ -1,7 +1,9 @@
+import  './componentsStyle.css'
+
 const TypeChart = ()=> {
     return (
-      <div>
-          <img src="ChartImage.png>" alt="A type Chart"></img>
+      <div id="TypeChart">
+          <img src="ChartImage.png" alt="A type Chart"></img>
 
       </div>
     );
